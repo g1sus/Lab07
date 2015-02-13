@@ -39,6 +39,7 @@
 		64255A201A89340D008F2769 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 64255A091A89340D008F2769 /* README.md */; };
 		64255A211A89340D008F2769 /* VERSION.md in Sources */ = {isa = PBXBuildFile; fileRef = 64255A0A1A89340D008F2769 /* VERSION.md */; };
 		64255A231A893503008F2769 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64255A221A893503008F2769 /* MobileCoreServices.framework */; };
+		64EE58911A8DA9EC00377E94 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64EE58901A8DA9EC00377E94 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		64255A091A89340D008F2769 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		64255A0A1A89340D008F2769 /* VERSION.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = VERSION.md; sourceTree = "<group>"; };
 		64255A221A893503008F2769 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		64EE58901A8DA9EC00377E94 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64EE58911A8DA9EC00377E94 /* iAd.framework in Frameworks */,
 				64255A231A893503008F2769 /* MobileCoreServices.framework in Frameworks */,
 				64255A1E1A89340D008F2769 /* Pushwoosh.framework in Frameworks */,
 			);
@@ -176,6 +179,7 @@
 		642559EA1A8932D7008F2769 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64EE58901A8DA9EC00377E94 /* iAd.framework */,
 				642559EB1A89340D008F2769 /* pushwoosh-ios-sdk-master */,
 			);
 			name = Frameworks;
